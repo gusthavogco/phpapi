@@ -1,0 +1,30 @@
+---------------Campos-----------------
+
+id 
+titulo = nome do jogo
+descricao = breve descricao do jogo
+videoid = trailer do jogo
+
+
+---------------Validações-----------------
+
+id = numero && > 0
+titulo = > 3 && <= 100
+descricao = >= 10 && <= 250 
+videoid =  != "" && <= 15
+
+
+------------RESTFUL-------------------
+
+
+Metodo		Caminho				Ação			Usado para
+
+GET - 		/photos				index			Mostrar a lista de todas as fotos		
+GET - 		/photos/new			nova			Retornar um form hmtl da criação de uma nova foto
+POST - 		/photos				criação			Criar uma nova foto
+GET - 		/photos/:id 		show			Mostrar uma foto especifica
+GET - 		/photos/:id/edit	edit			Retornar um form html para a edição de foto
+PUT - 		/photos/:id 		update			Atualizar uma foto especifica
+DELETE - 	/photos/:id 		destroy			Deletar uma foto especifica
+
+

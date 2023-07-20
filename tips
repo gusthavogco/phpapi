@@ -1,0 +1,3 @@
+controller - comunicação entre view e model
+model - conexao com base de dados, banco, api
+view, ou api - todos os layouts, html
